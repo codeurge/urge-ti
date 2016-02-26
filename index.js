@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import Hero from './src/components/hero';
+import FeaturedVideo from './src/components/featuredVideo';
 
 require('./src/styles.scss');
 
@@ -14,6 +15,7 @@ export default class App extends Component {
     return (
       <div className="app">
         <Hero />
+        <FeaturedVideo />
       </div>
     )
   }

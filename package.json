@@ -19,7 +19,9 @@
   "homepage": "https://github.com/codeurge/ti#readme",
   "dependencies": {
     "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "react-iframe": "0.0.4",
+    "react-video": "^1.5.3"
   },
   "devDependencies": {
     "babel-core": "^6.5.2",
