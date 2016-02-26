@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+import Hero from './src/components/hero';
+
+require('./src/styles.scss');
+
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -9,7 +13,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="app">
-        <p>This is the component you are looking for.</p>
+        <Hero />
       </div>
     )
   }

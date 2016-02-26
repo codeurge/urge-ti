@@ -20,7 +20,7 @@ module.exports = {
         loaders: ["style", "css", "sass"]
       },
       { test: /\.json$/, loader: "json" },
-      { test: /\.(png|woff|)$/, loader: 'url-loader?limit=100000' }
+      { test: /\.(png|jpg|woff|)$/, loader: 'url-loader?limit=100000' }
     ]
   },
 };

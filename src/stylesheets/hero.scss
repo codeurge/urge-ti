@@ -1,0 +1,98 @@
+.hero {
+  background-image: url('/public/images/hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  max-height: 50vh;
+  min-height: 490px;
+  text-align: center;
+  position: relative;
+
+  .navbar-galatica {
+    background: rgba(2,2,2,0.67);
+    position: relative;
+    min-height: 89px;
+    z-index: 999;
+
+    .navbar-brand {
+      max-width: 80%;
+      img {
+        width: 100%;
+      }
+    }
+
+    .dropdown-menu {
+      background-color: rgba(2,2,2,0.8);
+      border: 0 none;
+    }
+
+    .nav .open > a {
+      background: rgba(2,2,2,0.80);
+      color: #fff;
+    }
+
+    .nav > li > a:focus {
+      background: rgba(2,2,2,0.80);
+    }
+
+    .navbar-header {
+      .navbar-toggle {
+        border: 1px solid #a50f2d;
+        margin-top: 25px;
+        .icon-bar {
+          background-color: #a50f2d;
+        }
+      }
+    }
+
+    .navbar-nav {
+      flex: 1;
+      flex-direction: row;
+      li {
+        a {
+          padding: 34px 15px;
+          color: #a50f2d;
+          font-family: 'Lucida Grande';
+          font-weight: 600;
+          transition: 0.5s all ease;
+          &:hover {
+            background: rgba(2,2,2,0.80);
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+
+  .hero-callout {
+    position: absolute;
+    bottom: 38px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    h1 {
+      color: #fff;
+      font-family: 'Lucida Grande';
+      font-weight: 600;
+      font-size: 72px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+
+    .btn-callout {
+      background-color: #a50f2d;
+      color: #fff;
+      font-family: 'Helvetica';
+      font-weight: 600;
+      padding: 18px 65px;
+      text-transform: uppercase;
+      transition: 0.5s all ease;
+      &:hover {
+        background-color: darken(#a50f2d, 8%);
+      }
+    }
+  }
+}
