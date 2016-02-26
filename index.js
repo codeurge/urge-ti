@@ -16,6 +16,7 @@ export default class App extends Component {
       <div className="app">
         <Hero />
         <FeaturedVideo />
+        <div className="ships"></div>
       </div>
     )
   }
