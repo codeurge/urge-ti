@@ -45,24 +45,22 @@ export default class Footer extends React.Component {
   render() {
     return (
       <div className="footer container">
-        <div className="row">
-            <div className="col-sm-4">
-              <h1>In The News</h1>
-              {this.state.news.map((newsItem) => {
-                return this.renderFooterItem(newsItem)
-              })}
-            </div>
-            <div className="col-sm-4">
-              <h1>Event Calendar</h1>
-              {this.state.calendar.map((calendarItem) => {
-                return this.renderFooterItem(calendarItem)
-              })}
-            </div>
-            <div className="col-sm-4">
-              <h1>So Say We All</h1>
-              <img src="/public/images/footer.jpg" width="100%"/>
-              <h2>When is it appropriate to high-five a commander?</h2>
-            </div>
+        <div className="col-sm-4">
+          <h1>In The News</h1>
+          {this.state.news.map((newsItem) => {
+            return this.renderFooterItem(newsItem)
+          })}
+        </div>
+        <div className="col-sm-4">
+          <h1>Event Calendar</h1>
+          {this.state.calendar.map((calendarItem) => {
+            return this.renderFooterItem(calendarItem)
+          })}
+        </div>
+        <div className="col-sm-4">
+          <h1>So Say We All</h1>
+          <img src="/public/images/footer.jpg" width="100%"/>
+          <h2>When is it appropriate to high-five a commander?</h2>
         </div>
       </div>
     )

@@ -4,13 +4,11 @@
 @import './stylesheets/footer.scss';
 @import './stylesheets/socialButtons.scss';
 
-@media only screen and (min-width : 320px) {
-}
-
-@media only screen and (min-width : 480px) {
-}
-
 @media only screen and (min-width : 768px) {
+  .hero {
+    background-size: 100% auto;
+    background-position: center top;
+  }
   .navbar-galatica {
     .navbar-nav {
       li {
@@ -21,8 +19,18 @@
     }
   }
 }
+@media (min-width: 991px) {
+  .hero {
+    background-size: cover;
+    background-position: center bottom;
+  }
+}
 
 @media (max-width: 991px) {
+    .hero {
+      background-size: cover;
+      background-position: center bottom;
+    }
     .navbar-header {
         float: none;
     }
@@ -36,7 +44,6 @@
     }
     .navbar-nav {
         float: none!important;
-        margin: 89px -15px;
     }
     .navbar-nav>li {
         float: none;
@@ -59,6 +66,9 @@
 }
 
 @media only screen and (min-width : 992px) {
+  .hero .navbar-galatica .navbar-brand {
+    max-width: 100%;
+  }
 }
 
 @media only screen and (min-width : 1200px) {
