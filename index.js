@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import Hero from './src/components/hero';
 import FeaturedVideo from './src/components/featuredVideo';
+import Footer from './src/components/footer';
 
 require('./src/styles.scss');
 
@@ -17,7 +18,7 @@ export default class App extends Component {
         <Hero />
         <FeaturedVideo />
         <div className="ships"></div>
-        <div className="spacer"></div>
+        <Footer />
       </div>
     )
   }
