@@ -1,8 +1,13 @@
 .ships {
+  background-attachment: fixed;
   background-image: url('/public/images/ships.jpg');
-  background-size: 100%;
-  background-position: center center;
+  background-size: cover;
+  background-position: center bottom;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 40vh;
   width: 100%;
+}
+
+.spacer {
+  min-height: 450px;
 }
